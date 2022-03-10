@@ -1,7 +1,7 @@
 {
     "name": "deepak-esales/deepak-module",
-    "version": "1.0.0",
-    "version_normalized": "1.0.0",
+    "version": "2.0.0",
+    "version_normalized": "2.0.0",
     "description": "This is the Deepak module for the OXID eShop.",
     "type": "oxideshop-module",
     "keywords": ["oxid", "modules", "eShop", "Deepak"],
@@ -14,7 +14,7 @@
             "blacklist-filter": [
                 "documentation/**/*.*"
             ],
-            "target-directory": "/oe/oedeepak/"
+            "target-directory": "/oe/oedeepak2/"
         }
     },
     "require": {
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OxidEsales\\DeepakModule\\": "../../../source/modules/oe/oedeepak"
+            "OxidEsales\\DeepakModule\\": "../../../source/modules/oe/oedeepak2"
         }
     }
 }
